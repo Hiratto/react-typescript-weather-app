@@ -1,13 +1,12 @@
 //index.tsx
 
-importReactfrom'react';
-importReactDOMfrom'reactdom';
-importAppfrom'./App';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-ReactDOM.render(
+ReactDOM.render (
   <React.StrictMode>
-    <App/>
+    <App />
   </React.StrictMode>,
-  
   document.getElementById('root')
 );

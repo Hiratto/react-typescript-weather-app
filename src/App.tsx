@@ -1,13 +1,12 @@
-import'./App.css';
+import './App.css';
 
-functionApp(){
-  return(
-    <divclassName="App">
-
-    
+function App() {
+  return (
+    <div className="App">
+      <h1>こんにちは</h1>
     </div>
     );
   }
 
 
-exportdefaultApp;
+export default App;
